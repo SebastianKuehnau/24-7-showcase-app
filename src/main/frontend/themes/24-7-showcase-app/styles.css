@@ -1,0 +1,7 @@
+@import url('./main-layout.css');
+@import url('./views/master-detail-view.css');
+
+
+vaadin-notification-card.record-view::part(content) {
+    justify-content: space-around;
+}
