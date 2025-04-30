@@ -18,10 +18,9 @@ import java.time.ZoneOffset;
 import java.util.UUID;
 
 
-@PageTitle("New in Vaadin 24.7")
-@Menu(icon = LineAwesomeIconUrl.CHART_LINE_SOLID, order = 1)
+@PageTitle("Gantt Chart")
+@Menu(icon = LineAwesomeIconUrl.CHART_LINE_SOLID, order = 1, title = "Gantt Chart")
 @Route("gantt")
-
 public class GanttView extends VerticalLayout {
 
     private final LocalDate today = LocalDate.now();
