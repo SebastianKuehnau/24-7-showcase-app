@@ -17,7 +17,6 @@ import org.vaadin.lineawesome.LineAwesomeIconUrl;
 @PageTitle("Card Component (Preview)")
 @Menu(order = 3, icon = LineAwesomeIconUrl.PHOTO_VIDEO_SOLID)
 @Route(value = "card")
-@RouteAlias("")
 public class CardView extends VerticalLayout {
 
     public CardView() {
